@@ -1,0 +1,25 @@
+{
+  "name": "simplenodejsblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon run app",
+    "prod": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zijavhar/simplenodejsblog.git"
+  },
+  "author": "Javhar Ziyoev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zijavhar/simplenodejsblog/issues"
+  },
+  "homepage": "https://github.com/zijavhar/simplenodejsblog#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongodb": "^4.3.1",
+    "nodemon": "^2.0.15"
+  }
+}
